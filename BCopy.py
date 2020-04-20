@@ -92,7 +92,7 @@ while True:
     for v in data['data']['list']:
         print(postSubs(v['season_id']))
 
-    if math.ceil(data['data']['total'] / 50) == pn:
+    if data['data']['ps'] == pn:
         print('复制追番完成 %d个' % data['data']['total'])
         break
     pn = pn + 1
