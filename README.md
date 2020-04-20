@@ -7,4 +7,4 @@
 ## 使用方法
 1. 修改BCopy.py 中的 copyUid
 2. 修改BCopy.py 中的 cookies
-3. 运行 copy.py
+3. 运行 BCopy.py
